@@ -19,7 +19,7 @@ for bank, app_id in apps.items():
         lang="en",
         country="et",
         sort=Sort.NEWEST,
-        count=500
+        count=800
     )
 
     print(f"Collected {len(result)} reviews for {bank}")
