@@ -1,0 +1,27 @@
+# 1. Core & Data Handling
+numpy
+pandas
+
+# 2. Web Scraping (Task 1)
+google-play-scraper
+
+# 3. NLP & AI (Task 2)
+transformers
+torch
+scipy
+nltk
+spacy
+scikit-learn
+
+# 4. Database (Task 3)
+psycopg2-binary
+sqlalchemy
+
+# 5. Visualization (Task 4)
+matplotlib
+seaborn
+wordcloud
+
+# 6. Utilities
+python-dotenv
+pytest
