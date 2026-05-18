@@ -73,6 +73,70 @@ Final dataset columns:
 
 ---
 
+# Task 2: Sentiment and Thematic Analysis
+
+## Objective
+
+Analyze customer sentiment and identify recurring themes from Ethiopian banking app reviews using NLP techniques.
+
+---
+
+# Sentiment Analysis
+
+The project uses the transformer model:
+
+- distilbert-base-uncased-finetuned-sst-2-english
+
+The model classifies reviews into:
+
+- POSITIVE
+- NEGATIVE
+- NEUTRAL
+
+Each review also receives a confidence score.
+
+---
+
+# NLP Preprocessing
+
+The following preprocessing steps were applied:
+
+- Lowercasing
+- Tokenization
+- Stopword removal
+- Lemmatization
+- Punctuation removal
+
+Libraries used:
+
+- spaCy
+- scikit-learn
+
+---
+
+# Thematic Analysis
+
+TF-IDF and keyword matching were used to identify recurring business themes.
+
+Themes identified include:
+
+Other 1368
+Transaction Performance 119
+UI & User Experience 119
+Feature Requests 91
+App Performance 70
+Account Access Issues 56
+OTP & Verification Issues 15
+
+---
+
+# Outputs Generated
+
+Generated datasets:
+
+- reviews_with_sentiment.csv
+- final_thematic_dataset.csv
+
 # Project Structure
 
 ```text
